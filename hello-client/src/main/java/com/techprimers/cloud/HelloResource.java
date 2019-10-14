@@ -11,7 +11,6 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping("/rest/hello/client")
 public class HelloResource {
 
-
     @Autowired
     private RestTemplate restTemplate;
 
